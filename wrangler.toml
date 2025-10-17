@@ -16,6 +16,11 @@ workspace = "deco"
 enable_workflows = true
 local = false
 
+[deco.integration]
+description = "AI-powered GitHub Projects V2 and Issues management. Automate your GitHub workflow with intelligent task management, issue tracking, and project organization through MCP tools."
+friendlyName = "GitHub Projects Manager"
+icon = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+
 [[deco.bindings]]
 name = "AI_GATEWAY"
 type = "mcp"
@@ -25,12 +30,3 @@ integration_name = "@deco/ai-gateway"
 name = "DATABASE"
 type = "mcp"
 integration_name = "@deco/database"
-
-[[migrations]]
-tag = "v1"
-new_classes = [ "Workflow" ]
-
-[durable_objects]
-[[durable_objects.bindings]]
-name = "DECO_WORKFLOW_DO"
-class_name = "Workflow"

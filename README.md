@@ -2,7 +2,32 @@
 
 **AI-powered GitHub Projects V2 and Issues management with intelligent automation.**
 
+🔗 **App URL**: https://github-projects.deco.page/
+
 A comprehensive MCP (Model Context Protocol) server for managing GitHub Projects V2 and Issues through AI. Built for teams that want to automate their GitHub workflow with intelligent task management, issue tracking, and project organization.
+
+## 🚀 Quick Start
+
+### Installation
+
+1. **Go to your Deco workspace** at [admin.decocms.com](https://admin.decocms.com/)
+2. **Navigate to Apps** in your project
+3. **Search for "GitHub Projects Manager"** or install directly from:
+   - App URL: `https://github-projects.deco.page/`
+4. **Configure during installation:**
+   - **GitHub Token** (required): Personal Access Token with `repo`, `project`, and `read:org` scopes
+   - **Default Organization** (optional): Your main GitHub organization (e.g., `deco-cx`)
+
+### Creating a GitHub Token
+
+1. Go to GitHub Settings → Developer settings → Personal access tokens → [Tokens (classic)](https://github.com/settings/tokens)
+2. Click "Generate new token (classic)"
+3. Select scopes:
+   - ✅ `repo` - Full control of private repositories
+   - ✅ `project` - Full control of projects
+   - ✅ `read:org` - Read org and team membership
+4. Generate token and copy it
+5. Paste it during app installation in deco
 
 ## 🌟 Key Features
 
@@ -15,7 +40,7 @@ This MCP server provides powerful GitHub management capabilities:
 - **🔍 Tool Introspection**: Built-in UI to explore all available tools and their schemas
 - **⚡ Real-time Updates**: Manage tracked repos and projects through intuitive web interface
 
-## 🔥 What You Can Do
+## 🎯 What You Can Do
 
 With this MCP server, you can:
 - **Automate Task Creation**: Let AI create and organize issues based on requirements
@@ -23,6 +48,15 @@ With this MCP server, you can:
 - **Intelligent Labeling**: Automatically categorize and label issues based on content
 - **Team Coordination**: Assign issues and manage workflows programmatically
 - **Status Tracking**: Monitor project health and issue states across repositories
+
+## 🎨 Available Views
+
+After installing the app, you'll have access to these views in your deco workspace:
+
+1. **📊 Projects Browser** - Browse GitHub Projects V2 from any organization
+2. **🐛 Issues Browser** - Explore issues with full details, comments, and labels
+3. **📌 Tracking Manager** - Configure which repos and projects to monitor
+4. **🔧 Tools Inspector** - Explore all 25+ available MCP tools
 
 ## 📝 Development History
 
