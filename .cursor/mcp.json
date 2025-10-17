@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "github-projects": {
+      "type": "http",
+      "url": "https://localhost-ee719bf1.deco.host/mcp"
+    }
+  }
+}
